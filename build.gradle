@@ -1,0 +1,10 @@
+apply from: 'gradle/compile.gradle'
+apply from: 'gradle/ide.gradle'
+
+apply plugin: 'java'
+
+group 'ca.imaginary'
+
+repositories {
+  mavenCentral()
+}

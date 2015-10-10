@@ -1,0 +1,23 @@
+plugins.withType(JavaPlugin) {
+  project.apply plugin: 'eclipse'
+  eclipse {
+    // Remove old JRE containers
+    classpath.file.beforeMerged { classpath ->
+      classpath.entries.removeAll {
+        it.kind == 'con' &&
+            it.path.startsWith('org.eclipse.jdt.launching.JRE_CONTAINER')
+      }
+    }
+  }
+  project.afterEvaluate {
+    eclipse.classpath {
+      // Remove default workspace JRE Container
+      containers.clear()
+
+      // Add JRE based on source compatibility setting (Java level)
+      containers.add('org.eclipse.jdt.launching.JRE_CONTAINER' +
+          '/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType' +
+          '/JavaSE-' + sourceCompatibility)
+    }
+  }
+}

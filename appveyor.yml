@@ -1,0 +1,18 @@
+version: build-{build}
+
+clone_depth: 50
+
+environment:
+  matrix:
+  - platform: x86
+    PATH: "%PATH%;C:\\Program Files (x86)\\Java\\jdk1.8.0\\bin"  
+  - platform: x64
+    PATH: "%PATH%;C:\\Program Files\\Java\\jdk1.8.0\\bin"
+
+before_build:
+
+build_script:
+  - "./gradlew check"
+  - "./gradlew javadoc"
+
+after_build:

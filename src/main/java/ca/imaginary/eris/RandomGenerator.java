@@ -58,7 +58,7 @@ public interface RandomGenerator {
    * @return the next {@code int} value in the sequence.
    */
   public default int nextInt() {
-    return (int) (nextLong() >>> Integer.SIZE);
+    return (int) nextLong();
   }
 
   /**

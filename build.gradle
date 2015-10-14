@@ -1,5 +1,6 @@
 apply from: 'gradle/compile.gradle'
 apply from: 'gradle/ide.gradle'
+apply from: 'gradle/checkers.gradle'
 
 apply plugin: 'java'
 

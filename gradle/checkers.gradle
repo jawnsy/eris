@@ -1,0 +1,22 @@
+plugins.withType(JavaPlugin) {
+  project.apply plugin: 'findbugs'
+  findbugs {
+    ignoreFailures = true
+    toolVersion = '3.0.1'
+    effort = 'max'
+    reportLevel = 'low'
+  }
+
+  project.apply plugin: 'pmd'
+  pmd {
+    ignoreFailures = true
+    toolVersion = '5.4.0'
+  }
+
+  project.apply plugin: 'jdepend'
+  jdepend {
+    ignoreFailures = true
+    toolVersion = '2.9.1'
+  }
+}
+

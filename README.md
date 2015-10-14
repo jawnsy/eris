@@ -1,5 +1,7 @@
 # Eris
 
+[![Travis CI Build Status](https://travis-ci.org/jawnsy/eris.svg?branch=master)](https://travis-ci.org/jawnsy/eris)
+
 ## Introduction
 
 **Eris** provides a number of compatible implementations of Pseudo-random

@@ -1,0 +1,13 @@
+plugins.withType(JavaPlugin) {
+  project.apply plugin: 'jacoco'
+  jacoco {
+    toolVersion = "0.7.5.201505241946"
+  }
+  jacocoTestReport {
+    reports {
+      xml.enabled = true
+      html.enabled = true
+      csv.enabled = false
+    }
+  }
+}

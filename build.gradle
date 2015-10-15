@@ -1,6 +1,7 @@
 apply from: 'gradle/compile.gradle'
 apply from: 'gradle/ide.gradle'
 apply from: 'gradle/checkers.gradle'
+apply from: 'gradle/testing.gradle'
 
 apply plugin: 'java'
 
@@ -16,4 +17,6 @@ dependencies {
 
 test {
   useTestNG()
+
+  finalizedBy 'jacocoTestReport'
 }

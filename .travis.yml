@@ -11,4 +11,4 @@ script:
   - "./gradlew javadoc"
 
 after_script:
-  - codecov
+  - codecov -X gcov

@@ -2,6 +2,7 @@
 
 [![Travis CI Build Status](https://travis-ci.org/jawnsy/eris.svg?branch=master)](https://travis-ci.org/jawnsy/eris)
 [![AppVeyor CI Build Status](https://ci.appveyor.com/api/projects/status/github/jawnsy/eris?branch=master&svg=true)](https://ci.appveyor.com/project/jawnsy/eris)
+[![Code Coverage](https://codecov.io/github/jawnsy/eris/coverage.svg?branch=master)](https://codecov.io/github/jawnsy/eris?branch=master)
 
 ## Introduction
 

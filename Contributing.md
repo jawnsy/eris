@@ -6,6 +6,11 @@ requests) are gratefully accepted by the maintainer.
 Please note that **all** submitted code must include a statement agreeing to
 the terms of the Developer Certificate of Origin, included in this document.
 
+    Signed-off-by: Random J Developer <random@developer.example.org>
+
+using your real name (sorry, no pseudonyms or anonymous contributions.)
+Git can do this automatically using: `git commit --signoff`
+
 ## Developer Ceritifcate of Origin
 
   Developer Certificate of Origin

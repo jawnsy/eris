@@ -1,4 +1,5 @@
-# Contributing to Eris
+Contributing to Eris
+====================
 
 Contributions to this project (in the form of bug reports, patches, or pull
 requests) are gratefully accepted by the maintainer.
@@ -11,7 +12,8 @@ the terms of the Developer Certificate of Origin, included in this document.
 using your real name (sorry, no pseudonyms or anonymous contributions.)
 Git can do this automatically using: `git commit --signoff`
 
-## Developer Ceritifcate of Origin
+Developer Ceritifcate of Origin
+-------------------------------
 
     Developer Certificate of Origin
     Version 1.1

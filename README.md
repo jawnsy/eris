@@ -1,10 +1,12 @@
-# Eris
+Eris
+====
 
 [![Travis CI Build Status](https://travis-ci.org/jawnsy/eris.svg?branch=master)](https://travis-ci.org/jawnsy/eris)
 [![AppVeyor CI Build Status](https://ci.appveyor.com/api/projects/status/github/jawnsy/eris?branch=master&svg=true)](https://ci.appveyor.com/project/jawnsy/eris)
 [![Code Coverage](https://codecov.io/github/jawnsy/eris/coverage.svg?branch=master)](https://codecov.io/github/jawnsy/eris?branch=master)
 
-## Introduction
+Introduction
+------------
 
 **Eris** provides a number of compatible implementations of Pseudo-random
 Number Generator (PRNG) algorithms.  It was named after the [Greek goddess of
@@ -12,7 +14,8 @@ chaos, strife, and discord](https://en.wikipedia.org/wiki/Eris_\(mythology\)).
 It is an opinionated reimagination of the `java.util.Random` API, following
 best current practices in Java programming.
 
-## Features and Restrictions
+Features and Restrictions
+-------------------------
 
 * **Drop-in compatible**: All algorithms are functionally equivalent to, and
   tested against, the original reference implementations unless otherwise
@@ -26,21 +29,25 @@ best current practices in Java programming.
 * **Immutable**: There are no facilities for modifying seed data or other
   configuration parameters once generators are constructed.
 
-## Usage
+Usage
+-----
 
 
-## Compatibility
+Compatibility
+-------------
 
 As this is a new project, there are currently NO guarantees of compatibility.
 The API should not be considered stable.
 
-## Contributing
+Contributing
+------------
 
 Contributions to this project (in the form of bug reports, patches, or pull
 requests) are gratefully accepted by the maintainer.  Please see the
 `Contributing.md` file contained in this package for details.
 
-## Copyright and License
+Copyright and License
+---------------------
 
 Copyright 2015 by Jonathan Yu and other contributors
 
